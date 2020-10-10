@@ -1,0 +1,191 @@
+body{
+    background-image: url(../img/markus-winkler-afW1hht0NSs-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: lighten;
+}
+
+.top_heading{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    color: lightyellow;
+    transition-duration: 0.4s;
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+    align-items: center;
+    text-shadow: 2px 2px #035aa6;
+
+
+}
+.top_heading:hover{
+    color: #373a6dc9;
+    text-shadow: 2px 2px #6fc2d0;
+    transform: scale(1.5,1.5);
+}
+
+
+
+
+.section1{
+    /* background-color: blueviolet; */
+    width: auto;
+
+
+}
+.nav1{
+    /* background-color: brown; */
+    width:auto;
+
+    text-align: center;
+}
+.main1{
+    /* background-color: chocolate; */
+    width:auto;
+
+    text-align: center;
+
+}
+.button{
+    size: 60px;
+    border-radius: 12px;
+    background-color: #e7ebe75b; /* Green */
+    border: 5px;
+    color:black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-color:black;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button:hover{
+    background-color: white;
+    color:black;
+
+  transform: scale(1.5,1.5);
+
+}
+
+.nav2{
+    width: auto;
+    height: 140px;
+
+}
+.header2{
+    width: auto;
+    height: 60px;
+
+}
+.main2{
+    width: auto;
+    height: 450px;
+}
+.head2{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+
+}
+form{
+    width: auto;
+    text-align: center;
+}
+.section2{
+    width: auto;
+    height:120px;
+
+}
+
+
+
+.header_whois{
+
+    width: auto;
+    height: 60px;
+
+}
+.main_whois{
+
+    width: auto;
+    height: auto;
+}
+.button1{
+    size: 60px;
+    border-radius: 12px;
+    background-color: #e7ebe75b; /* Green */
+    border: 5px;
+    color:black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-color:black;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+.div_class{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.scantype{
+    font-size: 50px;
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+
+.topnav{
+    padding-bottom: 70px;
+    text-align: center;
+    text-indent: 20px;
+}
+.topnav input[type=text] {
+    float: center;
+    border-radius: 15px;
+
+    padding: 10px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  .scan_button{
+
+    width: 70px;
+    font-style: normal;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.514);
+    cursor: pointer;
+    transition-duration: 0.4s;
+   border-style: none;
+  }
+  .scan_button:hover{
+    background-color: black;
+    color: white;
+
+  transform: scale(2,2);
+
+  }

@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+
+{% endblock %}
+
+
+{% block body %}
+
+<table>
+    {% for i in range(length) %}
+    <tr>
+        <td>{{x_res[i]}}</td>
+        <td>{{y_res[i]}}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}

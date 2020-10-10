@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+
+{% endblock %}
+
+
+{% block body %}
+
+<table>
+    {% for item in response %}
+    <tr>
+        <td>{{item}}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}

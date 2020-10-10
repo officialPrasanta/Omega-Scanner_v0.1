@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+
+
+{% block body %}
+<div class="div_whois">
+    <h1 class="scantype">GOOGLE DORKS</h1>
+
+      <form class="topnav" action="" method="POST">
+        <input type="text" placeholder="  " name='hostname'>
+        {{ form.csrf_token }}
+        <button type="submit" class="scan_button"> SCAN</button>
+        <br><label>Search for</label><br>
+        <div id="ddl">
+          {{ form.dorksList(class="form-control") }}</div>
+      </form>
+
+</div>
+
+
+{% endblock %}

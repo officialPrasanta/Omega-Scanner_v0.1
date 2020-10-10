@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+
+{% endblock %}
+
+
+{% block body %}
+
+<table>
+    <tr>
+        <th><th>Whois Scan Report</th></th>
+    </tr>
+    {% for i in range(length) %}
+    <tr>
+        <td>{{x_res[i]}}</td>
+        <td>{{y_res[i]}}</td>
+    </tr>
+    {% endfor %}
+
+    <tr>
+        <th><th>Google Dork Scan Report</th></th>
+    </tr>
+    {% for item in g_response %}
+    <tr>
+        <td>{{item}}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}

@@ -1,0 +1,4 @@
+{
+  "title" : ["pdf files", "ppt/pptx files", "doc/docs files", "PHP Login Files", "SQL Injectable Sites", "DB Password Info", "Excel in member Dir", "Oauth Private Keys", "Username in .log files", "AdminPanel in ASP.NET", "AdminPage in JSP", "Pulse Secure SSL VPN", "Open Webcam", "TXT Robot File"],
+  "command" :["filetype:pdf", "filetype:ppt | filetype:pptx", "filetype:doc | filetype:docx", "inurl:login.php?id=", "inurl:index.php?id= intext:'mysql_fetch_array'", "filetype:env 'DB_PASSWORD'", "inurl:member filetype:xls", "intitle:'index of' 'oauth-private.key'", "allintext:username filetype:log", "inurl:admin.aspx | Cpanel/login.aspx | login.aspx | adminpanel.aspx", "inurl:admin/login.jsp | adminlogin.jsp", "inurl:/dana-na/ filetype:cgi", "intitle:'webcamXP 5' inurl:8080 'Live'", "(inurl:'robot.txt' | inurl:'robots.txt' ) intext:disallow filetype:txt"]
+}

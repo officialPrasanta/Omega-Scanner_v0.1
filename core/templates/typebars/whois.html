@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+
+
+{% block body %}
+<div class="div_whois">
+    <h1 class="scantype">WHO IS LOOKUP</h1>
+    
+
+    <!-- <div class="topnav">
+        
+        <input type="text" placeholder="  ">
+
+
+        <button type="submit" class="scan_button" onclick="document.location='scan_whois'"> SCAN</button>
+      </div>  -->
+
+      <form class="topnav" action="" method="POST">
+        <input type="text" placeholder="  " name='hostname'>
+        <button type="submit" class="scan_button"> SCAN</button>
+      </form>
+
+
+
+</div>
+
+{% endblock %}
