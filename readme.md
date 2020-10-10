@@ -6,3 +6,4 @@ The whole tool is created on top of Flask Framework.
 
 **Dir**:
 
+![](https://github.com/officialPrasanta/readme/blob/main/omega_scanner_dir.jpg)
